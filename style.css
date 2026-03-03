@@ -1,0 +1,13 @@
+header {
+    font-size: 1.5em;
+    text-align: center;
+}
+table {
+    margin: 50px;
+    font-size: 1.5em;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th,td {
+    border: 2px solid black;
+}

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables in HTML</title>
+    <link rel="stylesheet" href="style.css"> 
+  </head>
+  <body>
+    <!-- oggi cominciamo a riempire il body con dei contenitori SEMANTICI -->
+    <!-- header, main e footer saranno i vostri contenitoroni principali per tutti i contenuti della pagina -->
+    <!-- sono dei contenitori di blocco esattamente come <div>, ma trasmettono un'informazione di SIGNIFICATO -->
+    <!-- è sempre meglio utilizzare dei contenitori "semantici" invece di contenitori "generici" -->
+    <!-- favoriscono l'indicizzazione delle nostre pagine e contribuiscono alla mantenibilità del codice -->
+    <header>
+      <h1>Costruiamo una tabella in HTML</h1>
+      <!-- qui dentro metteremmo anche barre di navigazione, elementi di intestazione eccetera -->
+      <!-- tutto quello che tipicamente finisce "nella parte alta della pagina" -->
+    </header>
+    <main>
+      <!-- qui dentro mettiamo tutti i contenuti principali della pagina: paragrafi, immagini, liste etc. -->
+      <!-- sarà qui dentro che metterò la mia tabella! -->
+       <table>
+        <caption>Numeri Scarpe disponibili</caption>
+        <tr>
+            <th> Marca</th>
+            <th> Numero</th>
+            <th> Disponibilità</th>
+        </tr>
+        <tr>
+            <td> Nike</td>
+            <td> 40</td>
+            <td> 3</td>
+        </tr>
+        <tr>
+            <td> Adidas</td>
+            <td> 40</td>
+            <td> 7</td>
+        </tr>
+        <tr>
+          <td>Reebok</td>
+          <td> 41</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>mou</td>
+          <td>40,42</td>
+          <td>8</td>
+        </tr>
+        <tr>
+        <td>Jordan</td>
+        <td>44</td>
+        <td>3</td>
+        </tr>
+        <tr>
+          <td>Ck</td>
+          <td colspan="2">40</td>
+          <td></td>
+        </tr>
+       </table>
+    </main>
+    <footer>
+      <!-- qui dentro metteremmo link a cookie/privacy policies, link interni, copyright etc. -->
+      <p>EPICODE - 2026</p>
+    </footer>
+  </body>
+</html>
